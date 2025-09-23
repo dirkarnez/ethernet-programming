@@ -1,6 +1,7 @@
 ethernet-programming
 ====================
 - https://github.com/qemu/qemu/blob/master/hw/net/rtl8139.c
+- https://github.com/espressif/esp-idf/blob/master/examples/ethernet/basic/components/ethernet_init/ethernet_init.c#L86
 - https://github.com/espressif/esp-idf/blob/master/components/esp_eth/src/phy/esp_eth_phy_rtl8201.c
 - https://github.com/espressif/esp-idf/blob/master/components/esp_eth/src/phy/esp_eth_phy_rtl8201.c
 - https://github.com/rsta2/circle/blob/master/lib/bcm54213.cpp
