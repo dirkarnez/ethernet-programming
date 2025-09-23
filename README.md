@@ -3,7 +3,8 @@ ethernet-programming
 - https://github.com/qemu/qemu/blob/master/hw/net/rtl8139.c
 - https://github.com/espressif/esp-idf/blob/master/examples/ethernet/basic/components/ethernet_init/ethernet_init.c#L86
 - https://github.com/espressif/esp-idf/blob/master/components/esp_eth/src/phy/esp_eth_phy_rtl8201.c
-- https://github.com/espressif/esp-idf/blob/master/components/esp_eth/src/phy/esp_eth_phy_rtl8201.c
+- https://github.com/espressif/esp-idf/blob/master/components/esp_eth/src/phy/esp_eth_phy_ip101.c
+- [esp-idf/components/esp_eth/Kconfig at master · espressif/esp-idf](https://github.com/espressif/esp-idf/blob/master/components/esp_eth/Kconfig)
 - https://github.com/rsta2/circle/blob/master/lib/bcm54213.cpp
 - [PHY的MDIO/MDC简介_phy的mdc-CSDN博客](https://blog.csdn.net/linyangspring/article/details/27177277)
 - https://www.ti.com/lit/ds/symlink/dp83849c.pdf?ts=1758537606936
