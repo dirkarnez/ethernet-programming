@@ -1,6 +1,7 @@
 ethernet-programming
 ====================
 - https://github.com/qemu/qemu/blob/master/hw/net/rtl8139.c
+- https://github.com/espressif/esp-idf/blob/fcae32885b0296b32044cb99ecbdc50d98dddb83/examples/ethernet/basic/components/ethernet_init/ethernet_init.c#L62
 - https://github.com/espressif/esp-idf/blob/master/examples/ethernet/basic/components/ethernet_init/ethernet_init.c#L86
 - https://github.com/espressif/esp-idf/blob/master/components/esp_eth/src/phy/esp_eth_phy_rtl8201.c
 - https://github.com/espressif/esp-idf/blob/master/components/esp_eth/src/phy/esp_eth_phy_ip101.c
@@ -19,6 +20,24 @@ ethernet-programming
 - [【科普】一文读懂以太网PHY芯片-CSDN博客](https://blog.csdn.net/weixin_43381663/article/details/131874207)
 - [ESP-IDF](https://sourcevu.sysprogs.com/espressif/esp-idf/)
 - [深入浅出 TCP/IP 协议栈 - 一像素 - 博客园](https://www.cnblogs.com/onepixel/p/7092302.html)
+- [PHY芯片快速深度理解-CSDN博客](https://blog.csdn.net/zhiyuan2021/article/details/125420299)
+- [PHY芯片快速深度理解（持续更新中……）-CSDN博客](https://blog.csdn.net/qq_40715266/article/details/124095801)
+- [【Ethernet】以太网卡LAN8720A分析和使用-CSDN博客](https://blog.csdn.net/ZHONGCAI0901/article/details/118302801)
+- [PHY芯片快速深度理解（持续更新中……）-CSDN博客](https://blog.csdn.net/qq_40715266/article/details/124095801)
+- [STM32开发笔记50：STM32F4+DP83848以太网通信指南系列（四）：PHY配置_dp83848中文手册-CSDN博客](https://snmplink.blog.csdn.net/article/details/84845984)
+- [IP101A芯片默认物理地址（PHY Adress）确定-CSDN博客](https://blog.csdn.net/Ropai/article/details/6961157)
+- [以太网 - ESP32 - — ESP-IDF 编程指南 v5.5.1 文档](https://docs.espressif.com/projects/esp-idf/zh_CN/stable/esp32/api-reference/network/esp_eth.html)
+- https://www.ti.com/lit/an/spracc8a/spracc8a.pdf
+- https://github.com/espressif/esp-idf/blob/master/components/esp_eth/include/eth_phy_802_3_regs.h
+- https://github.com/espressif/esp-idf/blob/5c5eb99eabc7d3e7f704656ffe9ebf8f5a77afbd/components/esp_eth/include/esp_eth_phy.h#L276
+- https://github.com/espressif/esp-idf/blob/5c5eb99eabc7d3e7f704656ffe9ebf8f5a77afbd/examples/protocols/sockets/udp_multicast/sdkconfig.ci.default_ip101_esp32p4#L11
+- phy 32 registers(aka 2^5)
+- https://github.com/espressif/esp-idf/blob/5c5eb99eabc7d3e7f704656ffe9ebf8f5a77afbd/components/esp_eth/src/phy/esp_eth_phy_rtl8201.c#L49
+- first (0th) register is called Control Register
+- https://github.com/espressif/esp-idf/blob/5c5eb99eabc7d3e7f704656ffe9ebf8f5a77afbd/components/esp_eth/include/eth_phy_802_3_regs.h
+- https://pdf-html.ic37.com/pdf1/p00005/pdf_jiepei/IP101_22213.pdf
+  - the default PHY address is set at 00001b (01h)
+  - https://github.com/espressif/esp-idf/blob/5c5eb99eabc7d3e7f704656ffe9ebf8f5a77afbd/examples/protocols/sockets/udp_multicast/sdkconfig.ci.default_ip101_esp32p4#L11
 
 ### Notes
 - ethernet IC are more low level then [network interface controller](https://en.wikipedia.org/wiki/Network_interface_controller)
