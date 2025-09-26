@@ -39,6 +39,10 @@ ethernet-programming
   - the default PHY address is set at 00001b (01h)
   - https://github.com/espressif/esp-idf/blob/5c5eb99eabc7d3e7f704656ffe9ebf8f5a77afbd/examples/protocols/sockets/udp_multicast/sdkconfig.ci.default_ip101_esp32p4#L11
 
+### Drivers
+- Intel 5300 NIC
+  - [Introduction — Linux Wireless documentation](https://wireless.docs.kernel.org/en/latest/en/users/drivers/iwlwifi/core_release.html)  
+  - [iwlwifi « intel « wireless « net « drivers - kernel/git/iwlwifi/backport-iwlwifi.git - Backport tree for iwlwifi](https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi.git/tree/drivers/net/wireless/intel/iwlwifi)
 ### Notes
 - ethernet IC are more low level then [network interface controller](https://en.wikipedia.org/wiki/Network_interface_controller)
 
