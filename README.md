@@ -1,5 +1,6 @@
 ethernet-programming
 ====================
+- [Code search results](https://github.com/search?q=repo%3Aqemu%2Fqemu%20BMCR&type=code)
 - https://github.com/qemu/qemu/blob/master/hw/net/rtl8139.c
 - https://github.com/espressif/esp-idf/blob/fcae32885b0296b32044cb99ecbdc50d98dddb83/examples/ethernet/basic/components/ethernet_init/ethernet_init.c#L62
 - https://github.com/espressif/esp-idf/blob/master/examples/ethernet/basic/components/ethernet_init/ethernet_init.c#L86
