@@ -41,6 +41,12 @@ ethernet-programming
   - the default PHY address is set at 00001b (01h)
   - https://github.com/espressif/esp-idf/blob/5c5eb99eabc7d3e7f704656ffe9ebf8f5a77afbd/examples/protocols/sockets/udp_multicast/sdkconfig.ci.default_ip101_esp32p4#L11
 
+### Tools
+- ethtool
+  - [Linux下访问PHY芯片寄存器_ethtool读phy寄存器-CSDN博客](https://blog.csdn.net/m0_57982541/article/details/125502467)
+  - [使用ethtool查看MAC和PHY的相关信息 - ryankang - 博客园](https://www.cnblogs.com/rykang/p/11949759.html)
+- mii-tool
+
 ### Notes
 - ethernet IC are more low level then [network interface controller](https://en.wikipedia.org/wiki/Network_interface_controller)
 
