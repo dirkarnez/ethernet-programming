@@ -47,6 +47,9 @@ ethernet-programming
   - [使用ethtool查看MAC和PHY的相关信息 - ryankang - 博客园](https://www.cnblogs.com/rykang/p/11949759.html)
 - mii-tool
 
+### Specification
+- [PHY/FEC architecture considerations V2](https://www.ieee802.org/3/dj/public/23_03/brown_3dj_01a_2303.pdf)
+
 ### Notes
 - ethernet IC are more low level then [network interface controller](https://en.wikipedia.org/wiki/Network_interface_controller)
 
