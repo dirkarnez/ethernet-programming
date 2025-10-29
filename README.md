@@ -65,3 +65,8 @@ ethernet-programming
 ### Graphs
 - [ESP-NETIF - ESP32 - — ESP-IDF Programming Guide v5.5.1 documentation](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/network/esp_netif.html#esp-netif-architecture)
 - [Linux_kernel_diagram.svg](https://graphviz.org/Gallery/directed/Linux_kernel_diagram.svg)
+
+### Higher level libraries
+- [google/gopacket: Provides packet processing capabilities for Go](https://github.com/google/gopacket)
+- [mdlayher/packet: Package packet provides access to Linux packet sockets (AF_PACKET). MIT Licensed.](https://github.com/mdlayher/packet)
+- [vishvananda/netlink: Simple netlink library for go.](https://github.com/vishvananda/netlink)
