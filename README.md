@@ -41,6 +41,7 @@ ethernet-programming
 - https://pdf-html.ic37.com/pdf1/p00005/pdf_jiepei/IP101_22213.pdf
   - the default PHY address is set at 00001b (01h)
   - https://github.com/espressif/esp-idf/blob/5c5eb99eabc7d3e7f704656ffe9ebf8f5a77afbd/examples/protocols/sockets/udp_multicast/sdkconfig.ci.default_ip101_esp32p4#L11
+- [**STM32 W5500 Ethernet Interface – Setup, Config & Ping Test**](https://controllerstech.com/stm32-w5500-ethernet-interface-setup-ping-test/#google_vignette)
 
 ### Tools
 - ethtool
